@@ -1,12 +1,14 @@
-function forLoop(a){
+function forLoop(arr){
   for (let i = 0; i < 25; i++) {
     if (i === 1)  {
-    a.push(`"I am ${i} strange loop"`)
+      arr.push(`"I am ${i} strange loop"`)
     }
     else {
-      a.push(`"I am ${i} strange loops"`)
+      arr.push(`"I am ${i} strange loops"`)
     }
   }
+  return arr
 }
+
 
 
