@@ -1,10 +1,10 @@
 function forLoop(a){
   for (let i = 0; i < 25; i++) {
     if (i === 1)  {
-    console.log(`"I am ${i} strange loop"`)
+    a.push(`"I am ${i} strange loop"`)
     }
     else {
-      console.log(`"I am ${i} strange loops"`)
+      a.push(`"I am ${i} strange loops"`)
     }
   }
 }
