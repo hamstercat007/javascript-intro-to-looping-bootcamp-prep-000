@@ -17,6 +17,12 @@ function whileLoop(i) {
 return 'done'
 }
 
+
 function doWhileLoop() {
-  m
+ 
 }
+
+ function maybeTrue() {
+  return Math.random() >= 0.5 
+}
+
